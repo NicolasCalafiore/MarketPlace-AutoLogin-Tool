@@ -1,0 +1,3 @@
+This was a Java application that I was attempting to create when I first started getting into Swing and also Web-Scraping. Most likely will be abandoned and re-written 
+in C# WPF using better practices. This project is extremely un-modular, I also wanted to practice concurrency at the time so I had each buttons animation set to a 
+different thread (it is now broken) but the use of Selenium was successful (currently the auto-login stage is unreachable but working).
