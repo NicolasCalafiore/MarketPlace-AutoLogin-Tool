@@ -1523,10 +1523,10 @@ public class MainClass {
 			Thread.sleep(2000);
 			
 			WebElement element_emailTextbox = driver.findElement(By.xpath("//*[@id='email']"));
-			element_emailTextbox.sendKeys("8133272817");
+			element_emailTextbox.sendKeys(--PHONE NUMBER--);
 			
 			WebElement element_passswordTextbox = driver.findElement(By.xpath("//*[@id='pass']"));
-			element_passswordTextbox.sendKeys("Caracas55");
+			element_passswordTextbox.sendKeys(-PASSWORD-);
 			
 			driver.findElement(By.name("login")).click(); 
 			Thread.sleep(2000);
@@ -1625,11 +1625,11 @@ public class MainClass {
 			      }} catch (Exception ElementNotFound) {System.out.println("Element not found " );}
 			
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("//*[@id=\"userid\"]")).sendKeys("Nicolasacalafiore@gmail.com");
+			driver.findElement(By.xpath("//*[@id=\"userid\"]")).sendKeys(--EMAIL--);
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//*[@id=\"signin-continue-btn\"]")).click();
 			Thread.sleep(5000);
-			driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("Caracas55");
+			driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys(--PASSWORD--);
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//*[@id=\"sgnBt\"]")).click();
 			
@@ -1641,9 +1641,9 @@ public class MainClass {
 			System.out.println("Checkpoint 1");
 			Thread.sleep(2000);
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("//*[@id=\"inputEmailHandle\"]")).sendKeys("Nicolasacalafiore@gmail.com");
+			driver.findElement(By.xpath("//*[@id=\"inputEmailHandle\"]")).sendKeys(--EMAIL--);
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("//*[@id=\"inputPassword\"]")).sendKeys("Venezuela1!?!");
+			driver.findElement(By.xpath("//*[@id=\"inputPassword\"]")).sendKeys(--PASSWORD--);
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//*[@id=\"login\"]")).click();
 			
@@ -1669,7 +1669,7 @@ public class MainClass {
 			System.out.println("Checkpoint 1");
 			Thread.sleep(2000);
 			
-			driver.findElement(By.xpath("//*[@id=\"id_email\"]")).sendKeys("nicocalafiore@gmail.com");
+			driver.findElement(By.xpath("//*[@id=\"id_email\"]")).sendKeys(--EMAIL--);
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//*[@id=\"id_password\"]")).sendKeys("Caracas55");
 			Thread.sleep(2000);
@@ -1679,12 +1679,12 @@ public class MainClass {
 			/*WebDriver driver2 = new EdgeDriver();
 			driver2.get("https://www.gmail.com");
 			Thread.sleep(2000);
-			driver2.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("nicocalafiore");
+			driver2.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys(--EMAIL-- W/ @email.com);
 			Thread.sleep(2000);
 			driver2.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button")).click();
 			
 			Thread.sleep(2000);
-			driver2.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("Ncalafiore1!");
+			driver2.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys(--PASSWORD--);
 			Thread.sleep(2000);
 			driver2.findElement(By.xpath("//*[@id=\"passwordNext\"]/div/button")).click();
 			Thread.sleep(2000);
