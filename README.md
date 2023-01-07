@@ -18,3 +18,4 @@ This was a program I developed late 2021. For this program I developed an applic
  - I attempted animations very poorly
  - Not worth maintaining at all anymore and unusable.
  - Only used for a reference whenever I need to utilize Selenium in the future.
+ - Even if there was a runnable application I wouldnt release this.
